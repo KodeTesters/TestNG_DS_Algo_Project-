@@ -27,8 +27,8 @@
     </test> <!-- Test -->
 
 
-    <!--	<test thread-count="5" parallel="methods" name="SafariTest">-->
-    <!--		<parameter name="browser" value="safari"></parameter>-->
+    <!--	<test thread-count="5" parallel="methods" name="EdgeTest">-->
+    <!--		<parameter name="browser" value="edge"></parameter>-->
     <!--		<classes>-->
     <!--			<class name="testCases.GetStartedPageTest"/>-->
     <!--			<class name="testCases.SignInPagetest"/>-->

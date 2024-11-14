@@ -27,21 +27,21 @@
     </test> <!-- Test -->
 
 
-    <!--	<test thread-count="5" parallel="methods" name="EdgeTest">-->
-    <!--		<parameter name="browser" value="edge"></parameter>-->
-    <!--		<classes>-->
-    <!--			<class name="testCases.GetStartedPageTest"/>-->
-    <!--			<class name="testCases.SignInPagetest"/>-->
-    <!--			<class name="testCases.HomePageTests"/>-->
-    <!--			<class name="testCases.RegisterPageTest"/>-->
-    <!--			<class name="testCases.DS_IntroductionTests"/>-->
-    <!--			<class name="testCases.ArrayPageTests"/>-->
-    <!--			<class name="testCases.LinkedListPageTests"/>-->
-    <!--			<class name="testCases.QueuePageTests"/>-->
-    <!--			<class name="testCases.StackPageTests"/>-->
-    <!--			<class name="testCases.TreePageTests"/>-->
-    <!--			<class name="testCases.GraphPageTests"/>-->
-    <!--		</classes>-->
-    <!--	</test> &lt;!&ndash; FirefoxTest &ndash;&gt;-->
+    	<test thread-count="5" parallel="methods" name="EdgeTest">
+    		<parameter name="browser" value="edge"></parameter>
+    		<classes>
+    			<class name="testCases.GetStartedPageTest"/>
+    			<class name="testCases.SignInPagetest"/>
+    			<class name="testCases.HomePageTests"/>
+    			<class name="testCases.RegisterPageTest"/>
+    			<class name="testCases.DS_IntroductionTests"/>
+    			<class name="testCases.ArrayPageTests"/>
+    			<class name="testCases.LinkedListPageTests"/>
+    			<class name="testCases.QueuePageTests"/>
+    			<class name="testCases.StackPageTests"/>
+    			<class name="testCases.TreePageTests"/>
+    			<class name="testCases.GraphPageTests"/>
+    		</classes>
+    	</test> <!-- FirefoxTest -->
 
 </suite> <!-- Suite -->

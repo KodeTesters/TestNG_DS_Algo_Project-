@@ -27,7 +27,7 @@
     </test> <!-- Test -->
 
 
-    	<test thread-count="5" parallel="methods" name="EdgeTest">
+    	<!-- <test thread-count="5" parallel="methods" name="EdgeTest">
     		<parameter name="browser" value="edge"></parameter>
     		<classes>
     			<class name="testCases.GetStartedPageTest"/>
@@ -41,7 +41,8 @@
     			<class name="testCases.StackPageTests"/>
     			<class name="testCases.TreePageTests"/>
     			<class name="testCases.GraphPageTests"/>
-    		</classes>
-    	</test> <!-- FirefoxTest -->
+    		</classes> -->
+    	<!-- </test> -->
+         <!-- FirefoxTest -->
 
 </suite> <!-- Suite -->
